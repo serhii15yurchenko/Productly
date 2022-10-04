@@ -1,0 +1,100 @@
+.tools {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 75px;
+    margin-bottom: 50px;
+        // 100
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .tools__title {
+            max-width: 539px;
+            font-family: $montserratFont;
+            font-size: 36px;
+            // 36
+            color: $darkbrown;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 50px;
+            line-height: 44px;
+        }
+
+        .tools__list {
+            display: grid;
+            grid-template-columns: 270px 270px;
+            margin-bottom: 35px;
+            gap: 40px;
+            // 70
+
+            .tools__list-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .icon-wrapper {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 30px;
+    
+                    .icon {
+                        width: 18px;
+                        height: 18px;
+                    }
+                }
+    
+                .purple {
+                    background-color: #7752BE;
+                }
+    
+                .yellow {
+                    background-color: #FAB005;
+                }
+    
+                .red {
+                    background-color: #F03E3D;
+                }
+    
+                .blue {
+                    background-color: #4DADF7;
+                }
+    
+                h3 {
+                    font-family: $montserratFont;
+                    font-weight: 600;
+                    font-size: 22px;
+                    color: $darkbrown;
+                    margin-bottom: 16px;
+                }
+    
+                p {
+                    color: $brown;
+                    font-size: 13px;
+                    font-weight: 500;
+                    font-family: $montserratFont;
+                    text-align: center;
+                    line-height: 26px;
+                }
+    
+            }
+            }
+
+        .tools__button {
+            font-family: $poppinsFont;
+            font-weight: 700;
+            font-size: 16px;
+            text-align: center;
+            color: $white;
+            background-color: $orange;
+            border-radius: 4px;
+            border: none;
+            padding: 13px 40px;
+        }
+    }
+}

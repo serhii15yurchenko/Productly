@@ -1,0 +1,55 @@
+.hero {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        .hero__info {
+            max-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .info__title {
+                font-size: 44px;
+                font-family: $montserratFont;
+                color: $darkbrown;
+                font-weight: 700;
+                margin-bottom: 30px;
+                line-height: 54px;
+                text-align: left;
+            }
+
+            .info__text {
+                font-size: 18px;
+                line-height: 28px;
+                font-family: $montserratFont;
+                color: $brown;
+                font-weight: 400;
+                margin-bottom: 20px;
+                text-align: left;
+            }
+
+            .info__button {
+                padding: 13px 44px;
+                color: $white;
+                background-color: $orange;
+                font-family: $poppinsFont;
+                font-weight: 700;
+                font-size: 16px;
+                text-align: left;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        }
+
+        .hero__photo {
+            max-width: 644px;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

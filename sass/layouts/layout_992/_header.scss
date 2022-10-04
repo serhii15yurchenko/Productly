@@ -1,0 +1,96 @@
+.header {
+
+    .container {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 70px;
+
+        img {
+            position: relative;
+            z-index: 5;
+        }
+
+        .menu {
+
+            .mobile__wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                position: static;
+                min-height: unset;
+                width: unset;
+                background-color: unset;
+                padding: unset;
+                transition: all .2s ease-in;
+
+                .menu-list {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-bottom: 0px;
+                    text-align: center;
+                    margin-right: 100px;
+                    .list__item {
+                        cursor: pointer;
+                        &:hover a {
+                            color: $orange;
+                            transition: all .2s ease-in;
+                        }
+
+                        &:not(:last-child) {
+                            margin-right: 20px;
+                            margin-bottom: 0;
+                        }
+                        a {
+                            font-family: $montserratFont;
+                            font-size: 16px;
+                            text-align: center;
+                            color: $darkbrown;
+                            transition: all .2s ease-in;
+                            width: 100%;
+                            
+                        }
+                    }
+                }
+
+                .buttons {
+                    display: flex;
+                    justify-content: center;
+                    .button-white {
+                        padding: 13px 25px;
+                        border-radius: 4px;
+                        border: 1px solid $lightblue;
+                        background-color: transparent;
+                        color: $darkbrown;
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        font-family: $montserratFont;
+                        margin-right: 32px;
+                    }
+                    .button-orange {
+                        padding: 13px 25px;
+                        border-radius: 4px;
+                        border: none;
+                        background-color: transparent;
+                        background-color: $orange;
+                        color: $white;
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        font-family: $montserratFont;
+                    }
+                }
+            }
+
+            .burger {
+                
+                display: none;
+            }
+        }
+    }
+}
+

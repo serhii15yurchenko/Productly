@@ -1,0 +1,26 @@
+.marketers {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        .marketers-text {
+            max-width: 486px;
+            text-align: left;
+
+            &__subtitle {
+                margin-bottom: 6px;
+            }
+
+            &__title {
+                font-size: 36px;
+            }
+        }
+        
+        .marketers-photo {
+            margin-bottom: 0;
+        }
+    }
+}

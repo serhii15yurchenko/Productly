@@ -1,0 +1,27 @@
+.design {
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        // 100
+        .design-text {
+            max-width: 525px;
+            text-align: left;
+
+            &__subtitle {
+                margin-bottom: 6px;
+            }
+
+            &__title {
+                font-size: 36px;
+            }                  
+        }
+
+        .design-photo {
+            margin-bottom: 0;
+        }
+    }
+}

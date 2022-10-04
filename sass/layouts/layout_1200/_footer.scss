@@ -1,0 +1,16 @@
+.footer {
+
+    .container {
+        
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: left;
+
+       
+
+        .form {
+            grid-column-start: unset;
+            grid-column-end: unset;
+            
+        }
+    }
+}

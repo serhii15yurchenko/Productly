@@ -1,0 +1,85 @@
+.managers {
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 50px;
+        // 100
+        .managers-photo {
+            max-width: 570px;
+            width: 100%;
+            height: unset;
+            margin-bottom: 20px;
+        }
+
+        .managers-text {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            &__subtitle {
+                font-family: $montserratFont;
+                font-size: 16px;
+                color: $brown;
+                font-weight: 500;
+                margin-bottom: 4px;
+            }
+
+            &__title {
+                font-family: $montserratFont;
+                font-size: 30px;
+                // 36
+                color: $darkbrown;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            .text {
+                font-family: $montserratFont;
+                font-size: 16px;
+                color: $brown;
+                font-weight: 500;
+                line-height: 26px;
+                margin-bottom: 40px;
+            }
+
+            &__list {
+
+                .list__item {
+                    display: flex;
+
+                    &:not(:last-child) {
+                        margin-bottom: 30px;
+                    }
+                    .icon-wrapper {
+                        width: 35px;
+                        height: 35px;
+                        background-color: $orange;
+                        border-radius: 10px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-right: 30px;
+                        flex-shrink: 0;
+    
+                        .icon {
+                            width: 17px;
+                            height: 12px;
+                        }
+                    }
+    
+                    .item__text {
+                        font-family: $montserratFont;
+                        font-size: 16px;
+                        color: $brown;
+                        font-weight: 500;
+                        line-height: 26px;
+                        text-align: left;
+                    }
+                }
+
+            }
+        }
+    }
+}
